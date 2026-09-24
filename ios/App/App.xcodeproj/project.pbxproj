@@ -10,6 +10,7 @@
 		994800000000000000000001 /* ShareInbox.swift in App */ = {isa = PBXBuildFile; fileRef = 994800000000000000000010; };
 		994800000000000000000002 /* ShareInbox.swift in Extension */ = {isa = PBXBuildFile; fileRef = 994800000000000000000010; };
 		994800000000000000000003 /* ShareInboxPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994800000000000000000011; };
+		994800000000000000000007 /* AddTaskIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994800000000000000000018; };
 		994800000000000000000004 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994800000000000000000012; };
 		994800000000000000000005 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 994800000000000000000013; };
 		994800000000000000000006 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 994800000000000000000014; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		994800000000000000000010 /* ShareInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/ShareInbox.swift; sourceTree = SOURCE_ROOT; };
 		994800000000000000000011 /* ShareInboxPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ShareInboxPlugin.swift; sourceTree = SOURCE_ROOT; };
+		994800000000000000000018 /* AddTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AddTaskIntent.swift; sourceTree = SOURCE_ROOT; };
 		994800000000000000000012 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtension/ShareViewController.swift; sourceTree = SOURCE_ROOT; };
 		994800000000000000000013 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ../../src/assets/i18n/en.json; sourceTree = SOURCE_ROOT; };
 		994800000000000000000014 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 			children = (
 				994800000000000000000010 /* ShareInbox.swift */,
 				994800000000000000000011 /* ShareInboxPlugin.swift */,
+				994800000000000000000018 /* AddTaskIntent.swift */,
 				994800000000000000000012 /* ShareViewController.swift */,
 				994800000000000000000013 /* en.json */,
 				994800000000000000000015 /* ShareExtension Info.plist */,
@@ -281,6 +284,7 @@
 				504EC3081FED79650016851F /* AppDelegate.swift in Sources */,
 				994800000000000000000001 /* ShareInbox.swift in App */,
 				994800000000000000000003 /* ShareInboxPlugin.swift in Sources */,
+				994800000000000000000007 /* AddTaskIntent.swift in Sources */,
 				B63E17A52C5F3D8A00A1B2C3 /* CustomViewController.swift in Sources */,
 				B63E17A12C5F3D8A00A1B2C3 /* WebDavHttpPlugin.swift in Sources */,
 				B63E17A32C5F3D8A00A1B2C3 /* WebDavHttpPlugin.m in Sources */,
